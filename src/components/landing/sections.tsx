@@ -3,8 +3,14 @@ import { Badge } from "@/components/ui/badge"
 export const sections = [
   {
     id: 'hero',
-    subtitle: <Badge variant="outline" className="text-white border-white">Оригинальная парфюмерия • Оптом от 1 флакона</Badge>,
-    title: "Парфюмерия мировых брендов. Без переплат.",
+    subtitle: <Badge variant="outline" className="text-white border-white/40 bg-white/5">Оригинальная парфюмерия оптом</Badge>,
+    title: "Более 92 000 позиций по выгодным ценам.",
+    content: 'Доставка по России и СНГ. Работаем с магазинами, маркетплейсами и частными реселлерами.',
+    bullets: [
+      'От 1 любой позиции из прайс-листа',
+      'Без предоплаты и минимальной суммы заказа',
+      'Отправка в день оформления заказа',
+    ],
     showButton: true,
     buttonText: 'Получить каталог'
   },
